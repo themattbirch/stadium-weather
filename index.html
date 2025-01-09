@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Football Stadium Weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include any required fonts or icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+        as="style" />
+    <noscript></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </noscript>
+</head>
+
+<body>
+       <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <button class="icon-button">
+                    <svg>
+                        <use href="/icons/football_icon.svg#football-icon"></use>
+                    </svg>
+                </button>
+                <h1>Football Stadium Weather</h1>
+                <button class="icon-button" id="settings">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content Section -->
+        <main>
+            <!-- Custom Dropdowns for Team Selection -->
+            <div class="team-dropdown">
+                <div id="nfl-dropdown" class="custom-dropdown" tabindex="0">
+                    <span class="dropdown-selected">NFL Teams</span>
+                    <ul class="dropdown-list" aria-label="Select NFL Team">
+                        <li class="dropdown-search">
+                            <input type="text" placeholder="Search teams..." />
+                        </li>
+                        <!-- NFL teams will be populated dynamically -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="team-dropdown">
+                <div id="college-dropdown" class="custom-dropdown" tabindex="0">
+                    <span class="dropdown-selected">College Teams</span>
+                    <ul class="dropdown-list" aria-label="Select College Team">
+                        <li class="dropdown-search">
+                            <input type="text" placeholder="Search teams..." />
+                        </li>
+                        <!-- College teams will be populated dynamically -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Weather Display Area -->
+            <div id="weatherList" class="weather-container">
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loadingIndicator" class="loading" style="display: none;">
+                Loading weather data...
+            </div>
+
+            <!-- Error Message Display -->
+            <div id="errorMessage" class="error-message" style="display: none;">
+                <!-- Error messages will be displayed here -->
+            </div>
+
+            <!-- Refresh and Date Selection -->
+            <div class="controls">
+                <div class="date-selector">
+                    <label for="weather-date">Select Date:</label>
+                    <input type="date" id="weather-date" aria-label="Select Date">
+                </div>
+                <button id="refresh" class="primary-button">Refresh</button>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Optimize Web Solutions</p>
+        </footer>
+    </div>
+
+    <!-- Include your main popup script -->
+    <script src="popup.js"></script>
+
+    <!-- Offline detection script -->
+    <script src="offlineDetection.js"></script>
+</body>
+
+</html>
