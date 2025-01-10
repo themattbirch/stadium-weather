@@ -1,38 +1,29 @@
 {
-  "name": "replit-extension-template",
-  "version": "0.0.1",
-  "private": true,
-  "main": "index.js",
+  "name": "stadium-weather",
+  "version": "1.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "npx prettier --write src/*",
-    "clean": "rm -rf dist/",
-    "type:check": "tsc --noEmit",
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch",
-    "package": "node scripts/package.js"
+    "type:check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@replit/extensions": "^1.10.0",
-    "@replit/extensions-react": "^0.6.0",
-    "@replit/replkit": "^0.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.31",
-    "@types/react-dom": "^18.2.14",
-    "copy-webpack-plugin": "^12.0.2",
-    "css-loader": "^6.11.0",
-    "fs-extra": "^11.2.0",
-    "sharp": "^0.33.5",
-    "style-loader": "^3.3.4",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.7.2",
-    "webpack": "^5.96.1",
-    "webpack-cli": "^5.1.4"
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
   }
 }

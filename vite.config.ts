@@ -1,28 +1,36 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { resolve } from 'path';
+
+// Use Node's 'path' & 'url' in ES modules:
+import * as path from 'path';
+import { fileURLToPath } from 'url';
+
+// Shim for __dirname in ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react()],
-    server: {
-    open: '/app/',
+
+  server: {
+    open: '/public/index.html',
     proxy: {
       '/app': {
-        target: 'https://localhost:5173/public',
-        rewrite: (path) => path.replace(/^\/app/, ''),
-        secure: true 
-      }
-    }
+        target: 'http://localhost:5173/public',
+        rewrite: (pathString) => pathString.replace(/^\/app/, ''),
+        secure: false,
+      },
+    },
   },
+
   build: {
     rollupOptions: {
       input: {
-        website: resolve(__dirname, 'index.html'),          
-        app: resolve(__dirname, 'public/index.html'),
-        support: resolve(__dirname, 'public/support.html'),
-        privacy: resolve(__dirname, 'public/privacy.html'),
-        terms: resolve(__dirname, 'public/terms.html'),
-        
+        website: path.resolve(__dirname, 'index.html'),
+        app: path.resolve(__dirname, 'public/index.html'),
+        support: path.resolve(__dirname, 'public/support.html'),
+        privacy: path.resolve(__dirname, 'public/privacy.html'),
+        terms: path.resolve(__dirname, 'public/terms.html'),
       },
       output: {
         entryFileNames: 'assets/[name].[hash].js',
@@ -33,8 +41,10 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
   },
+
   esbuild: {
     logOverride: { 'module level directives cause errors': 'silent' },
   },
+
   publicDir: 'public',
 });
