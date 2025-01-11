@@ -1,0 +1,129 @@
+2025-01-11 02:01:34,899 - INFO - Starting MLB stadium scraping...
+2025-01-11 02:01:38,923 - INFO - Found 30 MLB stadium rows.
+2025-01-11 02:01:38,923 - INFO - MLB row 1: stadium=American Family Field‡, team=Milwaukee Brewers, location=Milwaukee, Wisconsin
+2025-01-11 02:01:38,923 - INFO - Geocoding MLB stadium: American Family Field in Milwaukee Wisconsin
+2025-01-11 02:01:40,522 - INFO - MLB row 2: stadium=Angel Stadium, team=Los Angeles Angels, location=Anaheim, California
+2025-01-11 02:01:40,522 - INFO - Geocoding MLB stadium: Angel Stadium in Anaheim California
+2025-01-11 02:01:42,423 - INFO - MLB row 3: stadium=Busch Stadium, team=St. Louis Cardinals, location=St. Louis, Missouri
+2025-01-11 02:01:42,424 - INFO - Geocoding MLB stadium: Busch Stadium in St Louis Missouri
+2025-01-11 02:01:44,519 - INFO - MLB row 4: stadium=Chase Field‡, team=Arizona Diamondbacks, location=Phoenix, Arizona
+2025-01-11 02:01:44,520 - INFO - Geocoding MLB stadium: Chase Field in Phoenix Arizona
+2025-01-11 02:01:45,779 - INFO - MLB row 5: stadium=Citi Field, team=New York Mets, location=Queens, New York
+2025-01-11 02:01:45,779 - INFO - Geocoding MLB stadium: Citi Field in Queens New York
+2025-01-11 02:01:47,260 - INFO - MLB row 6: stadium=Citizens Bank Park, team=Philadelphia Phillies, location=Philadelphia, Pennsylvania
+2025-01-11 02:01:47,261 - INFO - Geocoding MLB stadium: Citizens Bank Park in Philadelphia Pennsylvania
+2025-01-11 02:01:48,531 - INFO - MLB row 7: stadium=Comerica Park, team=Detroit Tigers, location=Detroit, Michigan
+2025-01-11 02:01:48,531 - INFO - Geocoding MLB stadium: Comerica Park in Detroit Michigan
+2025-01-11 02:01:49,759 - INFO - MLB row 8: stadium=Coors Field, team=Colorado Rockies, location=Denver, Colorado
+2025-01-11 02:01:49,759 - INFO - Geocoding MLB stadium: Coors Field in Denver Colorado
+2025-01-11 02:01:51,000 - INFO - MLB row 9: stadium=Daikin Park, team=Houston Astros, location=Houston, Texas
+2025-01-11 02:01:51,001 - INFO - Geocoding MLB stadium: Daikin Park in Houston Texas
+2025-01-11 02:01:52,279 - INFO - MLB row 10: stadium=Dodger Stadium, team=Los Angeles Dodgers[nb 2], location=Los Angeles, California
+2025-01-11 02:01:52,279 - INFO - Geocoding MLB stadium: Dodger Stadium in Los Angeles California
+2025-01-11 02:01:53,907 - INFO - MLB row 11: stadium=Fenway Park, team=Boston Red Sox[nb 3], location=Boston, Massachusetts
+2025-01-11 02:01:53,907 - INFO - Geocoding MLB stadium: Fenway Park in Boston Massachusetts
+2025-01-11 02:01:55,220 - INFO - MLB row 12: stadium=George M. Steinbrenner Field, team=Tampa Bay Rays, location=Tampa, Florida
+2025-01-11 02:01:55,220 - INFO - Geocoding MLB stadium: George M Steinbrenner Field in Tampa Florida
+2025-01-11 02:01:56,465 - INFO - MLB row 13: stadium=Globe Life Field‡, team=Texas Rangers, location=Arlington, Texas
+2025-01-11 02:01:56,466 - INFO - Geocoding MLB stadium: Globe Life Field in Arlington Texas
+2025-01-11 02:01:57,696 - INFO - MLB row 14: stadium=Great American Ball Park, team=Cincinnati Reds, location=Cincinnati, Ohio
+2025-01-11 02:01:57,696 - INFO - Geocoding MLB stadium: Great American Ball Park in Cincinnati Ohio
+2025-01-11 02:01:59,096 - INFO - MLB row 15: stadium=Kauffman Stadium, team=Kansas City Royals, location=Kansas City, Missouri
+2025-01-11 02:01:59,096 - INFO - Geocoding MLB stadium: Kauffman Stadium in Kansas City Missouri
+2025-01-11 02:02:00,612 - INFO - MLB row 16: stadium=LoanDepot Park‡, team=Miami Marlins, location=Miami, Florida
+2025-01-11 02:02:00,612 - INFO - Geocoding MLB stadium: LoanDepot Park in Miami Florida
+2025-01-11 02:02:01,867 - INFO - MLB row 17: stadium=Nationals Park, team=Washington Nationals, location=Washington, D.C.
+2025-01-11 02:02:01,867 - INFO - Geocoding MLB stadium: Nationals Park in Washington D C
+2025-01-11 02:02:03,112 - INFO - MLB row 18: stadium=Oracle Park, team=San Francisco Giants, location=San Francisco, California
+2025-01-11 02:02:03,112 - INFO - Geocoding MLB stadium: Oracle Park in San Francisco California
+2025-01-11 02:02:04,643 - INFO - MLB row 19: stadium=Oriole Park at Camden Yards, team=Baltimore Orioles, location=Baltimore, Maryland
+2025-01-11 02:02:04,644 - INFO - Geocoding MLB stadium: Oriole Park at Camden Yards in Baltimore Maryland
+2025-01-11 02:02:05,884 - INFO - MLB row 20: stadium=Petco Park, team=San Diego Padres, location=San Diego, California
+2025-01-11 02:02:05,884 - INFO - Geocoding MLB stadium: Petco Park in San Diego California
+2025-01-11 02:02:07,434 - INFO - MLB row 21: stadium=PNC Park, team=Pittsburgh Pirates, location=Pittsburgh, Pennsylvania
+2025-01-11 02:02:07,434 - INFO - Geocoding MLB stadium: PNC Park in Pittsburgh Pennsylvania
+2025-01-11 02:02:08,848 - INFO - MLB row 22: stadium=Progressive Field, team=Cleveland Guardians, location=Cleveland, Ohio
+2025-01-11 02:02:08,848 - INFO - Geocoding MLB stadium: Progressive Field in Cleveland Ohio
+2025-01-11 02:02:10,074 - INFO - MLB row 23: stadium=Rate Field, team=Chicago White Sox, location=Chicago, Illinois
+2025-01-11 02:02:10,075 - INFO - Geocoding MLB stadium: Rate Field in Chicago Illinois
+2025-01-11 02:02:11,493 - INFO - MLB row 24: stadium=Rogers Centre‡, team=Toronto Blue Jays, location=Toronto, Ontario
+2025-01-11 02:02:11,495 - INFO - Geocoding MLB stadium: Rogers Centre in Toronto Ontario
+2025-01-11 02:02:13,956 - INFO - MLB row 25: stadium=Sutter Health Park, team=Athletics, location=West Sacramento, California
+2025-01-11 02:02:13,956 - INFO - Geocoding MLB stadium: Sutter Health Park in West Sacramento California
+2025-01-11 02:02:15,562 - INFO - MLB row 26: stadium=T-Mobile Park‡, team=Seattle Mariners, location=Seattle, Washington
+2025-01-11 02:02:15,562 - INFO - Geocoding MLB stadium: T-Mobile Park in Seattle Washington
+2025-01-11 02:02:16,851 - INFO - MLB row 27: stadium=Target Field, team=Minnesota Twins, location=Minneapolis, Minnesota
+2025-01-11 02:02:16,852 - INFO - Geocoding MLB stadium: Target Field in Minneapolis Minnesota
+2025-01-11 02:02:18,163 - INFO - MLB row 28: stadium=Truist Park, team=Atlanta Braves, location=Cumberland, Georgia
+2025-01-11 02:02:18,163 - INFO - Geocoding MLB stadium: Truist Park in Cumberland Georgia
+2025-01-11 02:02:20,549 - INFO - MLB row 29: stadium=Wrigley Field, team=Chicago Cubs, location=Chicago, Illinois
+2025-01-11 02:02:20,550 - INFO - Geocoding MLB stadium: Wrigley Field in Chicago Illinois
+2025-01-11 02:02:21,774 - INFO - MLB row 30: stadium=Yankee Stadium, team=New York Yankees, location=Bronx, New York
+2025-01-11 02:02:21,775 - INFO - Geocoding MLB stadium: Yankee Stadium in Bronx New York
+2025-01-11 02:02:23,098 - INFO - Starting MLS stadium scraping...
+2025-01-11 02:02:23,395 - INFO - Found 30 MLS stadium rows.
+2025-01-11 02:02:23,395 - INFO - MLS row 1: stadium=Allianz Field, team=Minnesota United FC, location=Saint Paul, Minnesota
+2025-01-11 02:02:23,395 - INFO - Geocoding MLS stadium: Allianz Field in Saint Paul Minnesota
+2025-01-11 02:02:25,034 - INFO - MLS row 2: stadium=America First Field, team=Real Salt Lake, location=Sandy, Utah
+2025-01-11 02:02:25,034 - INFO - Geocoding MLS stadium: America First Field in Sandy Utah
+2025-01-11 02:02:26,292 - INFO - MLS row 3: stadium=Audi Field, team=D.C. United, location=Washington, D.C.
+2025-01-11 02:02:26,292 - INFO - Geocoding MLS stadium: Audi Field in Washington D C
+2025-01-11 02:02:27,528 - INFO - MLS row 4: stadium=Bank of America Stadium, team=Charlotte FC, location=Charlotte, North Carolina
+2025-01-11 02:02:27,529 - INFO - Geocoding MLS stadium: Bank of America Stadium in Charlotte North Carolina
+2025-01-11 02:02:28,861 - INFO - MLS row 5: stadium=BC Place‡, team=Vancouver Whitecaps FC, location=Vancouver, British Columbia
+2025-01-11 02:02:28,862 - INFO - Geocoding MLS stadium: BC Place in Vancouver British Columbia
+2025-01-11 02:02:30,155 - ERROR - Failed to geocode MLS stadium: BC Place
+2025-01-11 02:02:31,256 - INFO - MLS row 6: stadium=BMO Field, team=Toronto FC, location=Toronto, Ontario
+2025-01-11 02:02:31,256 - INFO - Geocoding MLS stadium: BMO Field in Toronto Ontario
+2025-01-11 02:02:33,707 - INFO - MLS row 7: stadium=BMO Stadium, team=Los Angeles FC, location=Los Angeles, California
+2025-01-11 02:02:33,708 - INFO - Geocoding MLS stadium: BMO Stadium in Los Angeles California
+2025-01-11 02:02:35,330 - INFO - MLS row 8: stadium=Chase Stadium, team=Inter Miami CF, location=Fort Lauderdale, Florida
+2025-01-11 02:02:35,331 - INFO - Geocoding MLS stadium: Chase Stadium in Fort Lauderdale Florida
+2025-01-11 02:02:37,249 - INFO - MLS row 9: stadium=Children's Mercy Park, team=Sporting Kansas City, location=Kansas City, Kansas
+2025-01-11 02:02:37,251 - INFO - Geocoding MLS stadium: Children's Mercy Park in Kansas City Kansas
+2025-01-11 02:02:38,685 - INFO - MLS row 10: stadium=Dick's Sporting Goods Park, team=Colorado Rapids, location=Commerce City, Colorado
+2025-01-11 02:02:38,685 - INFO - Geocoding MLS stadium: Dick's Sporting Goods Park in Commerce City Colorado
+2025-01-11 02:02:40,012 - INFO - MLS row 11: stadium=Dignity Health Sports Park, team=Los Angeles Galaxy, location=Carson, California
+2025-01-11 02:02:40,012 - INFO - Geocoding MLS stadium: Dignity Health Sports Park in Carson California
+2025-01-11 02:02:41,405 - INFO - MLS row 12: stadium=Energizer Park, team=St. Louis City SC, location=St. Louis, Missouri
+2025-01-11 02:02:41,406 - INFO - Geocoding MLS stadium: Energizer Park in St Louis Missouri
+2025-01-11 02:02:42,985 - INFO - MLS row 13: stadium=Gillette Stadium, team=New England Revolution, location=Foxborough, Massachusetts
+2025-01-11 02:02:42,986 - INFO - Geocoding MLS stadium: Gillette Stadium in Foxborough Massachusetts
+2025-01-11 02:02:44,229 - INFO - MLS row 14: stadium=Geodis Park, team=Nashville SC, location=Nashville, Tennessee
+2025-01-11 02:02:44,229 - INFO - Geocoding MLS stadium: Geodis Park in Nashville Tennessee
+2025-01-11 02:02:45,456 - INFO - MLS row 15: stadium=Inter&Co Stadium, team=Orlando City SC, location=Orlando, Florida
+2025-01-11 02:02:45,456 - INFO - Geocoding MLS stadium: Inter Co Stadium in Orlando Florida
+2025-01-11 02:02:46,704 - INFO - MLS row 16: stadium=Lower.com Field, team=Columbus Crew, location=Columbus, Ohio
+2025-01-11 02:02:46,704 - INFO - Geocoding MLS stadium: Lower com Field in Columbus Ohio
+2025-01-11 02:02:47,947 - INFO - MLS row 17: stadium=Lumen Field, team=Seattle Sounders FC, location=Seattle, Washington
+2025-01-11 02:02:47,947 - INFO - Geocoding MLS stadium: Lumen Field in Seattle Washington
+2025-01-11 02:02:49,190 - INFO - MLS row 18: stadium=Mercedes-Benz Stadium‡, team=Atlanta United FC, location=Atlanta, Georgia
+2025-01-11 02:02:49,191 - INFO - Geocoding MLS stadium: Mercedes-Benz Stadium in Atlanta Georgia
+2025-01-11 02:02:50,429 - INFO - MLS row 19: stadium=PayPal Park, team=San Jose Earthquakes, location=San Jose, California
+2025-01-11 02:02:50,429 - INFO - Geocoding MLS stadium: PayPal Park in San Jose California
+2025-01-11 02:02:52,043 - INFO - MLS row 20: stadium=Providence Park, team=Portland Timbers, location=Portland, Oregon
+2025-01-11 02:02:52,043 - INFO - Geocoding MLS stadium: Providence Park in Portland Oregon
+2025-01-11 02:02:53,353 - INFO - MLS row 21: stadium=Q2 Stadium, team=Austin FC, location=Austin, Texas
+2025-01-11 02:02:53,354 - INFO - Geocoding MLS stadium: Q2 Stadium in Austin Texas
+2025-01-11 02:02:55,928 - INFO - MLS row 22: stadium=Saputo Stadium, team=CF Montréal, location=Montreal, Quebec
+2025-01-11 02:02:55,929 - INFO - Geocoding MLS stadium: Saputo Stadium in Montreal Quebec
+2025-01-11 02:02:57,296 - ERROR - Failed to geocode MLS stadium: Saputo Stadium
+2025-01-11 02:02:58,401 - INFO - MLS row 23: stadium=Shell Energy Stadium, team=Houston Dynamo FC, location=Houston, Texas
+2025-01-11 02:02:58,402 - INFO - Geocoding MLS stadium: Shell Energy Stadium in Houston Texas
+2025-01-11 02:02:59,635 - INFO - MLS row 24: stadium=Snapdragon Stadium, team=San Diego FC, location=San Diego, California
+2025-01-11 02:02:59,636 - INFO - Geocoding MLS stadium: Snapdragon Stadium in San Diego California
+2025-01-11 02:03:01,202 - INFO - MLS row 25: stadium=Soldier Field, team=Chicago Fire FC, location=Chicago, Illinois
+2025-01-11 02:03:01,202 - INFO - Geocoding MLS stadium: Soldier Field in Chicago Illinois
+2025-01-11 02:03:02,479 - INFO - MLS row 26: stadium=Sports Illustrated Stadium, team=New York Red Bulls, location=Harrison, New Jersey
+2025-01-11 02:03:02,479 - INFO - Geocoding MLS stadium: Sports Illustrated Stadium in Harrison New Jersey
+2025-01-11 02:03:04,944 - INFO - MLS row 27: stadium=Subaru Park, team=Philadelphia Union, location=Chester, Pennsylvania
+2025-01-11 02:03:04,944 - INFO - Geocoding MLS stadium: Subaru Park in Chester Pennsylvania
+2025-01-11 02:03:06,186 - INFO - MLS row 28: stadium=Toyota Stadium, team=FC Dallas, location=Frisco, Texas
+2025-01-11 02:03:06,186 - INFO - Geocoding MLS stadium: Toyota Stadium in Frisco Texas
+2025-01-11 02:03:07,436 - INFO - MLS row 29: stadium=TQL Stadium, team=FC Cincinnati, location=Cincinnati, Ohio
+2025-01-11 02:03:07,436 - INFO - Geocoding MLS stadium: TQL Stadium in Cincinnati Ohio
+2025-01-11 02:03:08,662 - INFO - MLS row 30: stadium=Yankee Stadium, team=New York City FC, location=The Bronx, New York
+2025-01-11 02:03:08,662 - INFO - Geocoding MLS stadium: Yankee Stadium in The Bronx New York
+2025-01-11 02:03:10,246 - INFO - Stadium data saved to more_stadium_coordinates.json
+2025-01-11 02:03:10,247 - INFO - MLB stadiums scraped: 30
+2025-01-11 02:03:10,247 - INFO - MLS stadiums scraped: 28
