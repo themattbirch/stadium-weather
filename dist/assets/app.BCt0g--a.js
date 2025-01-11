@@ -36,7 +36,7 @@
           </div>
         </div>
       `,o.appendChild(l)}))}showError(e,o,n=!1){const t=document.getElementById("weatherList");if(!t)return;t.innerHTML="";const a=document.createElement("div");a.className=`error-message ${n?"api-key-missing":""}`;const r=document.createElement("strong");if(r.textContent=e,a.appendChild(r),o){const l=document.createElement("p");l.textContent=o,a.appendChild(l)}const i=document.createElement("button");i.textContent=n?"Configure API Key":"Try Again",i.addEventListener("click",()=>{n?this.openSettings():window.location.reload()}),a.appendChild(i),t.appendChild(a)}openSettings(){const e=document.createElement("div");e.className="settings-modal fixed inset-0 flex items-center justify-center bg-black/50",JSON.parse(localStorage.getItem("settings")||"{}"),e.innerHTML=`
-      <div class="settings-content bg-white dark:bg-gray-800 p-6 rounded-lg max-w-md w-full shadow-md text-black dark:text-white">
+      <div class="settings-content p-6 rounded-lg max-w-md w-full shadow-md text-black dark:text-white">
         <h2 class="text-xl font-bold text-center mb-4">Settings</h2>
         <div class="settings-section">
           <div class="setting-item mb-3">

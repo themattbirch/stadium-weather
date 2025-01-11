@@ -4,20 +4,20 @@
 
 /* Root Variables */
 :root {
-  --primary-color: #2e5a27;
+  --primary-color: #2E5A27;
   --secondary-color: #f4ea80;
-  --background-color: #f5f5f5;
+  --background-color: #F5F5F5;
   --text-color: #333;
   --card-background: #fff;
   --settings-color: #e5d41a;
-  --button-background: #2e5a27;
+  --button-background: #2E5A27;
   --button-text-color: #fff;
   --input-background: #fff;
   --input-text-color: #333;
-  --leather-tan: #d2b48c;
-  --pigskin-brown: #8b4513;
-  --field-green: #2e5a27;
-  --chalk-white: #f5f5f5;
+  --leather-tan: #D2B48C;
+  --pigskin-brown: #8B4513;
+  --field-green: #2E5A27;
+  --chalk-white: #F5F5F5;
   --stadium-gray: #666666;
   --modal-bg-color: #ffffff;
   --font-size-large: 16px;
@@ -31,7 +31,7 @@
 /* Dark Mode Variables */
 body.dark-mode {
   --primary-color: #1d3d1a;
-  --secondary-color: #8b4513;
+  --secondary-color: #8B4513;
   --background-color: #1c1c1c;
   --text-color: #e0e0e0;
   --card-background: #2c2c2c;
@@ -46,8 +46,7 @@ body.dark-mode {
 }
 
 /* Global Styles */
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -56,7 +55,7 @@ body {
 
 #root {
   width: 100%;
-  max-width: 450px;
+  max-width: 650px;
   height: 100vh;
   margin: 0 auto;
   overflow-y: auto; /* Enable scrolling within root */
@@ -88,10 +87,10 @@ main {
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-display: block;
   /* Force immediate display */
-  src: local("Roboto");
+  src: local('Roboto');
 }
 
 /* Header Styles */
@@ -262,7 +261,7 @@ body.dark-mode .weather-container {
 }
 
 .loading::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -315,7 +314,7 @@ body.dark-mode .weather-container {
   border-radius: 4px;
   background-color: var(--input-background);
   color: var(--input-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   /* Ensure consistent font */
   -webkit-appearance: none;
   /* Remove default styling */
@@ -329,23 +328,17 @@ body.dark-mode .weather-container {
   font-weight: normal;
 }
 
-body.dark-mode
-  .date-selector
-  input[type="date"]::-webkit-calendar-picker-indicator {
+body.dark-mode .date-selector input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
 
 /* For Firefox */
-body.dark-mode
-  .date-selector
-  input[type="date"]::-moz-calendar-picker-indicator {
+body.dark-mode .date-selector input[type="date"]::-moz-calendar-picker-indicator {
   filter: invert(1);
 }
 
 /* For other browsers */
-body.dark-mode
-  .date-selector
-  input[type="date"]::-ms-calendar-picker-indicator {
+body.dark-mode .date-selector input[type="date"]::-ms-calendar-picker-indicator {
   filter: invert(1);
 }
 
@@ -362,6 +355,7 @@ select[size] {
 .primary-button {
   @apply bg-blue-600 text-white hover:bg-blue-700;
 }
+
 
 /* Button Hover Animation */
 .primary-button,
@@ -474,7 +468,7 @@ body.dark-mode .privacy-link:hover {
 }
 
 .settings-footer .save-btn {
-  background-color: #4caf50;
+  background-color: #4CAF50;
   color: white;
 }
 

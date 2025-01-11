@@ -1,4 +1,5 @@
-// settings.js
+// /settings.js
+import { safeGetItem, safeSetItem } from "./utils/storage.js";
 
 class SettingsManager {
   constructor() {
@@ -14,7 +15,7 @@ class SettingsManager {
       display: {
         showTrends: true,
         showAlerts: true,
-        temperature: "F", // or 'C'
+        temperature: "F",
         refreshInterval: 30, // minutes
       },
     };
@@ -22,7 +23,7 @@ class SettingsManager {
   }
 
   loadSettings() {
-    const storedSettings = localStorage.getItem("settings");
+    const storedSettings = safeGetItem("settings");
     this.settings = storedSettings
       ? JSON.parse(storedSettings)
       : this.defaultSettings;
@@ -30,7 +31,7 @@ class SettingsManager {
 
   saveSettings(newSettings) {
     this.settings = { ...this.settings, ...newSettings };
-    localStorage.setItem("settings", JSON.stringify(this.settings));
+    safeSetItem("settings", JSON.stringify(this.settings));
   }
 
   createSettingsModal() {
@@ -90,7 +91,6 @@ class SettingsManager {
         </div>
       </div>
     `;
-
     return modal;
   }
 
@@ -99,14 +99,12 @@ class SettingsManager {
     this.modal = this.createSettingsModal();
     document.body.appendChild(this.modal);
 
-    // Add event listeners
     const saveBtn = this.modal.querySelector("#saveSettings");
     const closeBtn = this.modal.querySelector("#closeSettings");
 
     saveBtn.addEventListener("click", () => this.saveAndClose());
     closeBtn.addEventListener("click", () => this.closeModal());
 
-    // Close when clicking outside the modal
     this.modal.addEventListener("click", (e) => {
       if (e.target === this.modal) this.closeModal();
     });
@@ -142,5 +140,5 @@ class SettingsManager {
   }
 }
 
-// Export the class if using modules
-// export default SettingsManager;
+// If using ES modules, export it:
+export default SettingsManager;

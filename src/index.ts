@@ -331,7 +331,7 @@ async loadBaseballSoccerData(): Promise<void> {
     const settings = JSON.parse(localStorage.getItem('settings') || '{}');
 
     modal.innerHTML = `
-      <div class="settings-content bg-white dark:bg-gray-800 p-6 rounded-lg max-w-md w-full shadow-md text-black dark:text-white">
+      <div class="settings-content p-6 rounded-lg max-w-md w-full shadow-md text-black dark:text-white">
         <h2 class="text-xl font-bold text-center mb-4">Settings</h2>
         <div class="settings-section">
           <div class="setting-item mb-3">
